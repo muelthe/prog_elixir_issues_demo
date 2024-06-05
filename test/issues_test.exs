@@ -5,4 +5,5 @@ defmodule IssuesTest do
   test "greets the world" do
     assert Issues.hello() == :world
   end
+
 end
