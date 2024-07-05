@@ -21,8 +21,4 @@ defmodule Issues.GithubIssues do
 
   defp check_for_error(200), do: :ok
   defp check_for_error(_), do: :error
-
-  # def handle_response({_, %{status_code: _, body: body}}) do
-  #   {:error, body}
-  # end
 end
